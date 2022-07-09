@@ -1,0 +1,40 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
+
+body {
+    font-family: Voltaire, sans-serif;
+}
+
+nav {
+    position: fixed;
+    background-color: #191919;
+}
+
+footer {
+    background-color: #191919;
+}
+
+input, select, textarea{
+    color: black;
+}
+
+#hand {
+    cursor: pointer;
+    color: white;
+}
+
+@layer components {
+    .splash-img {
+        background-image: url("https://images.unsplash.com/photo-1560185007-5f0bb1866cab?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80");
+    }
+
+    .concepts {
+        font-family: 'Open Sans', sans-serif;
+    }
+}
